@@ -655,6 +655,7 @@ app = dash.Dash(
     __name__,
     title="Dashboard Prescriptivo · Mundo Abstracto",
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
+    suppress_callback_exceptions=True,
 )
 server = app.server  # ← necesario para despliegue en Render / Railway
 
