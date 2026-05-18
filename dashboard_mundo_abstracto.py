@@ -18,7 +18,7 @@ Despliegue en la nube (URL pública gratuita):
 import dash
 from dash import dcc, html, Input, Output, State
 import plotly.graph_objects as go
-import plotly.express as px
+
 
 # ──────────────────────────────────────────────
 # PALETA Y ESTILOS GLOBALES
